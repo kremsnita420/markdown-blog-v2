@@ -10,6 +10,11 @@ export default function Layout({ title, keywords, description, children }) {
 				<link rel='icon' href='/favicon.ico' />
 				<meta name='keywords' content={keywords} />
 				<meta name='description' conetnt={description} />
+				<meta
+					property='og:image'
+					content='/images/img2.jpg'
+					key='ogimage'
+				/>
 			</Head>
 
 			<Header />
